@@ -1,13 +1,13 @@
 {
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
-  },
   "name": "ziyou-blog",
   "version": "1.0.0",
   "description": "ziyou blog",
   "repository": "https://github.com/DDYMZL/ziyou-blog.git",
   "author": "ziyou <874928519@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
 }

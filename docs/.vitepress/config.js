@@ -51,6 +51,10 @@ function getSharing() {
         link: "/study/浏览器是怎么渲染页面的",
       },
       {
+        text: "由作用域引发的知识点",
+        link: "/study/由作用域引发的知识点",
+      },
+      {
         text: "技术文章",
         link: "/study/技术文章",
       },

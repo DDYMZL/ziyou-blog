@@ -35,8 +35,12 @@ function getCodeReview() {
         link: "/problem/记一次浏览器拦截导致图片出不来的问题",
       },
       {
-        text: "nuxt asyncData调试",
+        text: "记一次nuxt asyncData调试",
         link: "/problem/记一次nuxt asyncData调试",
+      },
+      {
+        text: "记 Vue3踩坑",
+        link: "/problem/记 Vue3踩坑",
       },
     ],
   };

@@ -50,6 +50,10 @@ function getSharing() {
         text: "浏览器怎么渲染页面",
         link: "/study/浏览器是怎么渲染页面的",
       },
+      {
+        text: "技术文章",
+        link: "/study/技术文章",
+      },
     ],
   };
 }

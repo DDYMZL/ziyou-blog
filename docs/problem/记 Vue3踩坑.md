@@ -33,6 +33,7 @@ const $_visible = computed({
 ```
 
 **问题：** Component emitted event "refresh" but it is neither declared in the emits option nor as an "onRefresh" prop.
+
 **代码：**
 
 ```js
@@ -42,8 +43,7 @@ const emits = defineEmits("refresh");
 **修复：**
 
 ```js
-const emits = defineEmits(['refresh']);
-/>
+const emits = defineEmits(["refresh"]);
 ```
 
 **问题：** 命名问题重叠问题。
@@ -57,9 +57,8 @@ total.value = total;
 **修复：**
 
 ```js
-const { total:totalCount } = await postDataTypePage
-total.value = totalCount
-/>
+const { total: totalCount } = await postDataTypePage;
+total.value = totalCount;
 ```
 
 **问题：** 由 setup 语法糖导致组件私有属性无法访问
@@ -93,7 +92,7 @@ npm install -S vuedraggable@next
 
 [vuedraggable 写法需要升级](https://github.com/SortableJS/vue.draggable.next#:~:text=Migrate%20from%20vue%202%20version)
 
-**问题：** [@vue/compiler-sfc] ::v-deep usage as a combinator has been deprecated. Use :deep(<inner-selector>) instead.
+**问题：** [@vue/compiler-sfc] ::v-deep usage as a combinator has been deprecated. Use :deep instead.
 **代码：**
 
 ```js

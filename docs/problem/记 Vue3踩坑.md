@@ -93,7 +93,7 @@ npm install -S vuedraggable@next
 
 [vuedraggable 写法需要升级](https://github.com/SortableJS/vue.draggable.next#:~:text=Migrate%20from%20vue%202%20version)
 
-**问题：** [@vue/compiler-sfc] ::v-deep usage as a combinator has been deprecated. Use :deep(<inner-selector>) instead.
+**问题：** [@vue/compiler-sfc] ::v-deep usage as a combinator has been deprecated. Use :deep instead.
 **代码：**
 
 ```js

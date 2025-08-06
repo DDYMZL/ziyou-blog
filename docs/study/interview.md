@@ -582,7 +582,9 @@ webpack5 相比之前，它内置了一些 loader，用起来更加方便
 - Suspense
 - Fragment 片段
 
-## Vue3 比 Vue2 快在哪里
+## Vue3 和 vue2 的响应式区别
+
+![Vue3和vue2的响应式区别.png](../assets/image/vue3和vue2响应式对比.png)
 
 ## vue3 订阅发布模式
 
